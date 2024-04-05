@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        form{
+            margin:0 auto;
+            display: flexbox;
+            justify-content: center;
+            background-color: aqua;
+            height: 50%;
+            width: 50%;
+
+        }
+        div{
+           display: flexbox;
+           justify-content: space-around;
+            background-color: aquamarine;
+            height: 50%;
+            width: 50%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <body>
+       <h1>login</h1>
+       <form action="/login" method="post">   
+       <p>{{data.errormessage}}</p> 
+        <!-- user input-->
+        Username:<br>
+        <input type="text" name="username" required><br><br>
+        Password:<br>
+        <input type="password" name="password"  required><br><br>
+        <!-- submit button -->
+        <input type="submit" value="login">
+        <p>not have acc register here? <a href="/register">register</a></p>
+      </form>
+
+      </body>
+</body>
+</html>

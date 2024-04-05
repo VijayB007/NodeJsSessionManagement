@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "hbs": "^4.2.0",
+    "pg": "^8.11.4"
+  }
+}
